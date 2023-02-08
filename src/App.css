@@ -74,3 +74,24 @@ p {
   cursor: pointer;
   background-color: rgba(104, 1, 130, 0.879);
 }
+
+@media all and (max-width:800px) {
+
+  .content {
+    width: 70%;
+  }
+
+  .advice {
+    font-size: 20px;
+  }
+
+
+}     
+
+@media all and (max-width:500px) {
+
+  h1 {
+    font-size: 35px;
+  }
+
+} 
